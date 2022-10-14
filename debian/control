@@ -1,0 +1,33 @@
+Source: uab-lang-sbd
+Section: misc
+Priority: optional
+Maintainer: Jordi Román Mejias <Jordi.Roman@uab.cat>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+
+Package: uab-lang-sbd-ca
+Architecture: all
+Provides: x-uab-lang-sbd
+Conflicts: x-uab-lang-sbd
+Replaces: x-uab-lang-sbd
+Depends: ${misc:Depends}
+Description: Set LANG to ca_ES.UTF-8
+ This package Set LANG to ca_ES.UTF-8. Empty package
+
+Package: uab-lang-sbd-es
+Architecture: all
+Provides: x-uab-lang-sbd
+Conflicts: x-uab-lang-sbd
+Replaces: x-uab-lang-sbd
+Depends: ${misc:Depends}
+Description: Set LANG to es_ES.UTF-8
+ This package Set LANG to es_ES.UTF-8. Empty package
+
+Package: uab-lang-sbd-en
+Architecture: all
+Provides: x-uab-lang-sbd
+Conflicts: x-uab-lang-sbd
+Replaces: x-uab-lang-sbd
+Depends: ${misc:Depends}
+Description: Set LANG to en_US.UTF-8
+ This package Set LANG to en_US.UTF-8. Empty package
